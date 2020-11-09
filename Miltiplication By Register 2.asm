@@ -1,0 +1,4 @@
+MOV AX,4H
+
+
+MUL AX  ; AX =DX*AX*AX

@@ -1,0 +1,6 @@
+MOV AX,32H
+
+MOV BL,8H   
+
+DIV BL  ; AX/BL -- RESULTENT <AL>  , REMINDER <AH> 
+   

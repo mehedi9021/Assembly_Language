@@ -1,0 +1,10 @@
+;All Time Ax Register is Present in Division Operation 
+ 
+
+DIV BL  ;Al/BL -------- RESULT:AL  , REMINDER:AH
+
+  
+DIV BH  ;Al;/BH -------- RESULT:AL , REMINDER:AH 
+
+
+DIV BX  ;DXAX/BX ------ RESULT:AX  , REMINDER:DX
